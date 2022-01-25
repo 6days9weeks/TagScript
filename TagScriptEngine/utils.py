@@ -6,7 +6,7 @@ import discord
 
 __all__ = ("escape_content", "maybe_await", "DPY2")
 
-DPY2 = discord.version_info >= discord.VersionInfo(major=2, minor=0, micro=0, releaselevel='alpha', serial=0)
+DPY2 = discord.version_info.major != 1
 
 pattern = re.compile(r"(?<!\\)([{():|}])")
 
