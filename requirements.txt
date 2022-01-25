@@ -1,5 +1,5 @@
 autoflake
 black
-discord.py
+novus
 isort
 pyparsing
