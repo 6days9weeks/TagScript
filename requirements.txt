@@ -1,5 +1,4 @@
 autoflake
 black
-novus
 isort
 pyparsing
